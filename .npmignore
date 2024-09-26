@@ -1,4 +1,4 @@
-.vscode# Created by https://www.gitignore.io/api/node
+# Created by https://www.gitignore.io/api/node
 # Edit at https://www.gitignore.io/?templates=node
 
 ### Node ###
@@ -92,25 +92,29 @@ typings/
 
 # End of https://www.gitignore.io/api/node
 
-dist
-lib
-es
-tmp
+# dist
+# lib
+# es
+# tmp
 
 .vscode
+.github
+.husky
 *.iml
 .idea
+.flowconfig
 
-docs/calendar.md
-docs/date_input.md
-docs/day.md
-docs/month.md
-docs/week.md
-docs/year_dropdown_options.md
-docs/year_dropdown.md
+dist/react-datepicker-cssmodules.css
+dist/react-datepicker-cssmodules.min.css
+dist/react-datepicker-min.modules.css
+dist/react-datepicker.module.css
+
+docs
+.config.js
 
 # We are using Yarn
 package-lock.json
 scripts/.DS_Store
 .DS_Store
+
 .npmrc
