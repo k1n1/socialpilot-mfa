@@ -15,9 +15,6 @@
     "react-qr-code": "^2.0.15",
     "react-scripts": "3.4.3"
   },
-  "engines": {
-    "node": "^16.0.0"
-  },
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
