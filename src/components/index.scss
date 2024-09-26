@@ -1,0 +1,168 @@
+.mfa-password-modal {
+  .modal-dialog {
+    padding: 16px !important;
+  }
+
+  .modal-body {
+    padding: 16px;
+  }
+}
+
+.mfa-password-error {
+  font-weight: 400;
+  line-height: 16px;
+  color: #ee3819;
+  margin: 4px auto auto auto;
+}
+
+.mfa-password-email {
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0px;
+}
+
+.mfa-password-input-box {
+  width: 278px;
+  margin: 0 auto;
+}
+
+.mfa-main-modal {
+  .modal-dialog {
+    padding: 16px !important;
+  }
+
+  .modal-body {
+    padding: 16px;
+    // height: 396px;
+  }
+}
+
+.mfa-password-text {
+  line-height: 18px;
+}
+
+.mfa-qr {
+  height: 100%;
+}
+
+.mfa-qr-text {
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.mfa-otp-text {
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0px;
+}
+
+.mfa-recovery-text-secondary {
+  font-weight: 400;
+  line-height: 18px;
+  color: #5f6166;
+  margin: 0px;
+}
+
+.mfa-qr-container {
+  max-width: 340px;
+}
+
+.mfa-otp-container {
+  max-width: 340px;
+}
+
+.mfa-recovery-container {
+  max-width: 430px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+input[type='text'].mfa-otp-input {
+  border: 1px solid #b7bcc4;
+  border-radius: 4px;
+  background-color: #fff;
+  aspect-ratio: 1;
+  width: 40px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0px;
+  font-size: 24px !important;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.mfa-otp-input-invalid {
+  border: 1px solid #ee3819 !important;
+}
+
+.qr-code-loader {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(90deg, #ecebeb 0%, #f3f3f3 100%);
+  margin: auto;
+}
+
+.input-spinner-loader {
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  margin-top: 2px !important;
+}
+
+.mfa-otp-spinner-loader {
+  position: absolute;
+  right: -24px;
+  top: 3px;
+}
+
+.mfa-change-password {
+  padding-bottom: 24px;
+}
+
+.mfa-otp-message-text {
+  font-size: 12px;
+}
+
+.mfa-text-24 {
+  font-size: 24px !important;
+}
+
+.mfa-confirm-password-main {
+  margin-bottom: 192px;
+}
+
+.mfa-otp-main {
+  margin-bottom: 68px;
+}
+
+.mb-20 {
+  margin-bottom: 20px
+}
+
+.mfa-recovery-main {
+  margin-bottom: 162px;
+}
+
+.pb-22 {
+  padding-bottom: 22px !important;
+}
+
+@media (min-width: 1850px) {
+  .mfa-qr-container {
+    max-width: 390px !important;
+  }
+}
+
+@media (min-width: 1850px) {
+  .mfa-recovery-container {
+    max-width: 490px !important;
+  }
+}
+
+@media (min-width: 1850px) {
+  .mfa-recovery-otp-text {
+    font-size: 14px;
+  }
+}
