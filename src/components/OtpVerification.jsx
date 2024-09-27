@@ -167,20 +167,17 @@ const OtpVerification = ({
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="d-flex justify-content-end align-items-center">
-                                {isSetupCompleteApiLoading && (
-                                    <SpinnerSmallLoader className="circular-spinner mr-8" />
-                                )}
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div className="row justify-content-end align-items-center">
+                {isSetupCompleteApiLoading && (
+                    <SpinnerSmallLoader className="circular-spinner" />
+                )}
+
                 <a
-                    className={isSetupCompleteApiLoading ? 'disabled' : ''}
+                    className={`delete-group btn-medium ${
+                        isSetupCompleteApiLoading ? 'disabled' : ''
+                    }`}
                     href="javascript:;"
                     onClick={goBack}
                 >
@@ -188,7 +185,7 @@ const OtpVerification = ({
                 </a>
 
                 <Button
-                    bsClass="btn btn-primary btn-medium ml-2"
+                    bsClass="btn btn-primary btn-medium"
                     disabled={!isOtpVerified || isSetupCompleteApiLoading}
                     variant="primary"
                     onClick={onComplete}
